@@ -1,44 +1,53 @@
-##ENRTERPRISE NETWORK ARCHITECTURE & ENGINEERING LAB##
 
-Cisco Modeling Labs(CML) | Enterprise Routing | Switching | WAN | Network Security
+# Enterprise Network Architecture & Engineering Lab
 
-1. Project Overview
+**Cisco Modeling Labs (CML) | Enterprise Routing | Switching | WAN | Network Security**
 
-This Repository documents the design, implementation, and validation of a simulated enterprise network built using Cisco Modeling Labs(CML)
+---
 
-The project is intended to demonstrate practical network engineering skills through the development of a multi-site enterprise enviroment
-incorporating redundant infrastructure, dynamic routing, network segmentation, WAN connectivity, security controls, and centralized network services.
+## 1. Project Overview
 
-Rather than focusing soley on individual protocol configurations, the project emphasizes network architecture, design decissions, operational resilience,
-troubleshooting, and technical documentation.
+This repository documents the design, implementation, and validation of a simulated enterprise network built using Cisco Modeling Labs (CML).
 
-Project Objectives
--Design a scalable, multi-site enterprise network architecture.
--Implement redundant campus switching and routing infrastructure.
--Configure and validate enterpriise routing protocols.
--Develope secure WAN connectivity between geographically seperated sites.
--Implement network segmentation and access-layer security.
--Deploy centralized network infrastructure services.
--Document technical design decisions and operational procedures.
--Validate network behavior under normal failure conditions.
+The project is intended to demonstrate practical network engineering skills through the development of a multi-site enterprise environment incorporating redundant infrastructure, dynamic routing, network segmentation, WAN connectivity, security controls, and centralized network services.
 
-2. Network Architecture
+Rather than focusing solely on individual protocol configurations, the project emphasizes **network architecture, design decisions, operational resilience, troubleshooting, and technical documentation.**
 
-The simulated enterprise enviroment consists of a headquarters campus, WAN edge infrastructure, ISP connectivity, and a remote branch location.
+### Project Objectives
 
-CORE COMPONENTS
-COMPONENT                            DESCRIPTION
-----------------------------------------------------------------------------------------
-Headquarters                         Redundant core and access switching infrastructure.
-WAN Edge                             Dual enterprise edge routers.
-Service Provider                     Simulated ISP infrastructure.
-Branch Office                        Remote routing and switching enviroment.
-Infrastructure Server                Ubuntu Linux server provifing DHCP, DNS, and NTP.
-Security                             Layer 2 security controls and network segmentation.
+- Design a scalable, multi-site enterprise network architecture.
+- Implement redundant campus switching and routing infrastructure.
+- Configure and validate enterprise routing protocols.
+- Develop secure WAN connectivity between geographically separated sites.
+- Implement network segmentation and access-layer security.
+- Deploy centralized network infrastructure services.
+- Document technical design decisions and operational procedures.
+- Validate network behavior under normal and failure conditions.
 
-Network Topology
-[INTSERT HERE]
+---
 
-The architecture is designed to support redundant connectivity, controlled network segmentation, and centeralized infrastructure services.
+## 2. Network Architecture
 
-3. TECHNOLOGIES IMPLEMENTED
+The simulated enterprise environment consists of a headquarters campus, WAN edge infrastructure, ISP connectivity, and a remote branch location.
+
+### Core Components
+
+| Component | Description |
+|-----------|-------------|
+| Headquarters | Redundant core and access switching infrastructure |
+| WAN Edge | Dual enterprise edge routers |
+| Service Provider | Simulated ISP infrastructure |
+| Branch Office | Remote routing and switching environment |
+| Infrastructure Server | Ubuntu Linux server providing DHCP, DNS, and NTP |
+| Security | Layer 2 security controls and network segmentation |
+
+### Network Topology
+
+*Network topology diagram will be added here.*
+
+The architecture is designed to support redundant connectivity, controlled network segmentation, and centralized infrastructure services.
+
+---
+
+## 3. Technologies Implemented
+
